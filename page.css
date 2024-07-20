@@ -1,0 +1,81 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+.my-name {
+    text-align: center;
+    font-weight: bold;
+}
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 200%;
+}
+.line {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0 5px;
+
+}
+.about {
+    font-family: verdana;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.text {
+    border: 1px solid rgb(202, 195, 195);
+    font-size: 16px;
+    line-height: 20px;
+    background-color: cornsilk;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    
+
+}
+
+.container {
+    border: 1px solid rgb(202, 195, 1956);
+    background-color: cornsilk;
+    
+}
+li {
+    border: 1px solid rgb(202, 195, 1956);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work {
+    font-family: verdana;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding: 10px;
+}
+.contact {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+.sub-contact {
+    background-color: yellow;
+    width: fit-content;
+}
